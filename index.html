@@ -16,24 +16,27 @@
     <!-- h1 background color: -->
 </header>
 <main>
-    <p style="background-color: magenta"> What is your name? </p>
-    <p style="background-color: magenta"> I'm so excited to learn how to code! </p>
-    <p style="background-color: magenta">What is your favorite color?</p>
-    <p style="background-color: magenta">Where are you from?</p>
-    <p style="background-color: magenta">Are you nice?</p>
-    <p style="background-color: magenta">The internet is wild</p>
-    <p style="background-color: magenta">Who are you</p>
+    <p style="background-color: magenta; color: aqua"> What is your name? </p>
+    <p style="background-color: magenta; color: orange"></p> I'm so excited to learn how to code! </p>
+    <p style="background-color: magenta; color: aqua">What is your favorite color?</p>
+    <p style="background-color: magenta; color: orange">Where are you from?</p>
+    <p style="background-color: magenta; color: aqua">Are you nice?</p>
+    <p style="background-color: magenta; color: orange">The internet is wild</p>
+    <p style="background-color: magenta; color: aqua">Who are you</p>
     <script>
         console.log ('Hello World');
        let userResponse = prompt('What is your name?');
        console.log('user response to Q1: ' + userResponse);
        alert('Hey' + userResponse);
        let userResponseTwo = prompt('What is your favorite color?');
+       console.log('User entered their favorite color as' + userResponseTwo) 
        alert('Wow ' + userResponse + 'your favorite color is ' + userResponseTwo );
        let userResponseThree = prompt('Do you want to hang out with me?')
        alert('We should be friends!' + userResponseThree )
+       console.log('I am now friends with' + userResponseThree);
        let userResponseFour = prompt('Did we just become best friends?')
        alert('I have power tools!' + userResponseFour )
+       console.log(userResponseFour + 'is our best friend')
        // JavaScript will live here
     </script>
 </main>
