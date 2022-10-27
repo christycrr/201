@@ -1,3 +1,4 @@
+'use strict';
 console.log('Hello World');
 let userResponse = prompt('What is your name?');
 console.log('user response to Q1: ' + userResponse);
@@ -42,5 +43,67 @@ else {
 console.log(' userResponse + likes Old Greg');
 alert(`Don't forget to drink water`);
 
-alert('Thank you for visiting my page' + userResponse);
+
+// LAB 3
+
+
+
+
+
+
+/*
+alert('Welcome to my guessing game!');
+
+while (!userResponse) {
+    user = prompt('Guess my favorite number 1 through 6');
+  }
+
+for(let i = 0; i < nums.length; i++) 
+{
+
+
+    let userGuess = prompt('Guess what number I am thinking of');
+
+let clueGuesses = 6;
+let User = 'userResponse';
+let User = false;
+{if(consoleGuess === User)
+Found = true;
+}
+let answer 6 = prompt
+*/
+
+
+let attempts = 0;
+let numbersix;
+
+while (attempts<6) {
+     numbersix = prompt('what is my favorite number?');
+    if (numbersix == 7) {
+        alert('I can\'t believe you guessed it!');
+        attempts=6;
+    }
+    else if (numbersix > 7) {
+        alert('Too high!');
+        attempts++;
+    }
+    else if (numbersix < 7) {
+        alert('Too low!');
+        attempts++;
+    }
+    else{
+        alert('That\'s not a number');
+        attempts++;
+    }
+    
+}
+// console.log(nums);
+// let userInput = prompt
+// let nums = ["1, 2, 3, 4, 5];
+//if (userInput === 'nums 1, 2, 3, 4, 5') {
+//  alert('That\'s not it! + userResponse');
+//}
+//else {
+//alert('Thank you for visiting my page' + userResponse);
 // JavaScript will live here
+// 
