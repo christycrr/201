@@ -1,11 +1,19 @@
 'use strict';
 console.log('Hello World');
+
+
 let userResponse = prompt('What is your name?');
 console.log('user response to Q1: ' + userResponse);
 alert('Hey ' + userResponse);
+
+function questionOne(){
 let userResponseTwo = prompt('What is your favorite color?');
 console.log('User entered their favorite color as' + userResponseTwo);
 alert('Wow ' + userResponse + 'your favorite color is ' + userResponseTwo);
+}
+questionOne();
+
+function questionThree(){
 let userResponseThree = prompt('Do you want to hang out with me?');
 if (userResponseThree === 'yes') {
     alert('We should be friends!' + userResponse);
@@ -14,7 +22,12 @@ else {
     alert(`That's too bad ${userResponse}`);
 }
 
+}
+questionThree();
+
 console.log('I am now friends with' + userResponse);
+
+function questionFour(){
 let userResponseFour = prompt('Did we just become best friends?');
 if (userResponseFour === 'yes') {
     alert(`Let's hang out!` + userResponse);
@@ -23,6 +36,10 @@ else {
     alert(`That's too bad ${userResponse}`);
 }
 alert('I have power tools!' + userResponseFour);
+}
+questionFour();
+
+function questionFive(){
 console.log(userResponseFour + 'is our best friend');
 let userResponseFive = prompt('Could ya learn to love me?');
 if (userResponseFive === 'yes') {
@@ -31,6 +48,10 @@ if (userResponseFive === 'yes') {
 else {
     alert(`That's too bad ${userResponse}`);
 }
+}
+questionFive();
+
+function questionSix(){
 console.log(userResponse + 'Could learn to love me');
 alert('These are my waters');
 let userResponseSix = prompt('Do you like Old Greg?');
@@ -42,7 +63,8 @@ else {
 }
 console.log(' userResponse + likes Old Greg');
 alert(`Don't forget to drink water`);
-
+}
+questionSix();
 
 // LAB 3
 
